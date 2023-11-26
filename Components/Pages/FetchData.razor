@@ -1,0 +1,31 @@
+@page "/fetchdata"
+@inject HeroBlazorApp.Data.UserService UserService
+
+<h3>Users</h3>
+
+@if (users == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    foreach (var user in users)
+    {
+        <p>
+            <strong>Name:</strong> @user.Name <br />
+            <strong>Username:</strong> @user.Username <br />
+            <strong>Email:</strong> @user.Email <br />
+            <strong>Phone:</strong> @user.Phone <br />
+            <strong>Website:</strong> @user.Website
+        </p>
+    }
+}
+
+@code {
+    private List<HeroBlazorApp.Data.User> users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await UserService.GetUsersAsync();
+    }
+}

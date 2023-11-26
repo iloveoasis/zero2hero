@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jzfjlab06\\HeroBlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HeroBlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HeroBlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jzfjlab06\\HeroBlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\jzfjlab06\\HeroBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jzfjlab06\\HeroBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jzfjlab06\\HeroBlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HeroBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HeroBlazorApp.props",
+      "PackagePath": "build\\HeroBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HeroBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\HeroBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HeroBlazorApp.props",
+      "PackagePath": "buildTransitive\\HeroBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
